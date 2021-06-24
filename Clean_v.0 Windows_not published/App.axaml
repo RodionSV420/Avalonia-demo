@@ -1,0 +1,18 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:ModernFlatAvaloniaUI"
+             x:Class="ModernFlatAvaloniaUI.App">
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+        
+        <StyleInclude Source="avares://MaterialDesign.Avalonia.PackIcon/Assets/Generic.xaml" />
+
+        <StyleInclude Source="/Assets/MenuItemButtonStyle.axaml" />
+        <StyleInclude Source="/Assets/SearchTextBoxStyle.axaml" />
+        <StyleInclude Source="/Assets/QuitButtonStyle.axaml" />
+    </Application.Styles>
+</Application>

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RuntimeIdentifiers>win10-x64;osx.10.12-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="*" />
+    <PackageReference Include="Avalonia.Desktop" Version="*" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="*" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="*" />
+    <PackageReference Include="Avalonia.Xaml.Interactivity" Version="*" />
+    <PackageReference Include="MaterialDesign.Avalonia.PackIcon" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\PersonView.axaml.cs">
+      <DependentUpon>PersonView.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Settings.axaml.cs">
+      <DependentUpon>Settings.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Logout.axaml.cs">
+      <DependentUpon>Logout.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\EKG.axaml.cs">
+      <DependentUpon>EKG.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TimeTableView.axaml.cs">
+      <DependentUpon>TimeTableView.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

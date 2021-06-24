@@ -1,0 +1,31 @@
+<UserControl 
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  x:Class="ModernFlatAvaloniaUI.Views.TimeTableView">
+
+	<StackPanel>
+	<TextBlock
+		Text="Расписание"
+		Foreground="White"
+		FontSize="28"
+		HorizontalAlignment="Left"
+		Margin="0 0 0 20" />
+
+<ScrollViewer Height="400" Width="400">
+	<ItemsRepeater Items="Цифры">
+		<ItemsRepeater.Layout>
+			<StackLayout Spacing="40" Orientation="Vertical"/>
+		</ItemsRepeater.Layout>
+		<ItemsRepeater.ItemTemplate>
+			<DataTemplate>
+				<Border Background="White" Width="80" Height="800">
+					<TextBlock Text="Scroll тут" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+				</Border>
+			</DataTemplate>
+		</ItemsRepeater.ItemTemplate>
+	</ItemsRepeater>
+</ScrollViewer>
+</StackPanel>
+</UserControl>

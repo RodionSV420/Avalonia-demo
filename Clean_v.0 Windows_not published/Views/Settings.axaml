@@ -1,0 +1,18 @@
+<UserControl 
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  x:Class="ModernFlatAvaloniaUI.Views.SettingsView">
+
+	<StackPanel>
+		<TextBlock
+      Text="Установить стоимость приёма в час, $"
+      Foreground="White"
+      FontSize="28"
+      HorizontalAlignment="Left"
+      Margin="0 0 0 20" />
+		<NumericUpDown AllowSpin="True"></NumericUpDown>
+		<RadioButton ClickMode="Release" Foreground="WhiteSmoke">Включить радио</RadioButton>
+</StackPanel>
+</UserControl>
