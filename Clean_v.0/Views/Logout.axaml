@@ -1,0 +1,17 @@
+<UserControl 
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  x:Class="ModernFlatAvaloniaUI.Views.LogoutView">
+
+	<StackPanel>
+		<TabStrip>Нажми на любую букву</TabStrip>
+		<ComboBox SelectedIndex="0" IsDropDownOpen="True">
+			<ComboBoxItem>Пользователь Самуков КО</ComboBoxItem>
+			<ComboBoxItem>Пользователь Самукова ТО</ComboBoxItem>
+			<ComboBoxItem>Пользователь Самукова А.?.</ComboBoxItem>
+			<ComboBoxItem>Пользователь Туманова М.?.</ComboBoxItem>			
+		</ComboBox>
+</StackPanel>
+</UserControl>

@@ -1,0 +1,15 @@
+<UserControl 
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  x:Class="ModernFlatAvaloniaUI.Views.EKGView">
+
+	<StackPanel>
+		<CheckBox IsThreeState="True" IsChecked="{x:Null}">Нажми меня для запуска ЭКГ</CheckBox>
+		<ToggleSwitch>Подключена ли аппаратура</ToggleSwitch>
+		<ListBoxItem IsSelected="True">Запуск программы</ListBoxItem>
+		<ProgressBar IsIndeterminate="True"></ProgressBar>
+		
+</StackPanel>
+</UserControl>
