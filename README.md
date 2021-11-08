@@ -1,1 +1,4 @@
-![avalonia_test_gif.gif](https://github.com/RodionSV420/First-time-upload/tree/master/Clean_v.0/avalonia_test_gif.gif)
+Framework: Avalonia
+Demonstration of cross-platform fw.
+Tested /w: winOS, macOS.
+![0.gif](Clean_v.0/0.gif)
